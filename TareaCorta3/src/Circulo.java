@@ -7,6 +7,13 @@ public class Circulo extends Figura{
         return Math.PI * radio * radio;
     }
 
+    public void setRadio(double radio){
+        this.radio = radio;
+    }
+
+    public double getRadio(){
+        return radio;
+    }
     public int numeroLados(){
         return 0;
     }
